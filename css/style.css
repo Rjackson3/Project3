@@ -210,6 +210,12 @@ iframe{
   top: -0.4em;
   right: 37.2em;
 }
+.artwork{
+  margin: 0em;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 /*media queries*/
 @media screen and (min-width: 600px){
 #interesttext{
@@ -263,3 +269,5 @@ iframe{
   width: 100%;
 }
 }
+
+

@@ -125,27 +125,27 @@ p, li{
 /* interest page */
 #interesttext{
   position: fixed;
-  background-color: #fff;
-  padding: 1em;
+  background-color: white;
+  padding: 1.4em;
   font-size: 0.7em;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   width: 47%;
   height: inherit;
 }
 .photoresize{
   height: 50%;
-  width: 90%;
+  width: 100%;
 }
 .imgcontainer{
   float: right;
   position: relative;
   height: auto;
-  width: 50%;
-  background-color: #333333;
+  width: 49%;
+  background-color: #555555;
 }
 .imgadj{
   height: 80%;
-  width: 90%;
+  width: 100%;
 }
 /*YouTube video*/
 .video{
@@ -211,14 +211,55 @@ iframe{
   right: 37.2em;
 }
 /*media queries*/
-@media screen and (min-width: 560px){
+@media screen and (min-width: 600px){
 #interesttext{
   position: fixed;
   background-color: white;
-  padding: 1em;
+  padding: 0.5em; /*4*/
+  font-size: 0.7em;
+  font-size: 1vw; /*1*/
+  width: 48%; /*2*/
+  height: inherit;
+}
+.photoresize{
+  height: 50%;
+  width: 100%;
+}
+.imgcontainer{
+  float: right;
+  position: relative;
+  height: auto;
+  width: 51%; /*5*/
+  background-color: #444444; /*3*/
+}
+.imgadj{
+  height: 80%;
+  width: 100%;
+}
+}
+@media screen and (min-width: 900px){
+#interesttext{
+  position: fixed;
+  background-color: white;
+  padding: 1em; /*4*/
   font-size: 0.7em;
   font-size: 0.8vw; /*1*/
   width: 48%; /*2*/
   height: inherit;
+}
+.photoresize{
+  height: 50%;
+  width: 100%;
+}
+.imgcontainer{
+  float: right;
+  position: relative;
+  height: auto;
+  width: 50%;/*5*/
+  background-color: #333333;/*3*/
+}
+.imgadj{
+  height: 80%;
+  width: 100%;
 }
 }

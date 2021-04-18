@@ -1,0 +1,201 @@
+p, li{ 
+  color: #707C80;
+}
+.dfont {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+.talign { 
+  margin: 0em;
+  text-align: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.floatclear{
+  clear: both;
+}
+.title{ 
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4.6875em;
+  color: #30BFBF;
+  margin: 0em;
+}
+#wrapper {
+  width: 88.25em;
+  margin: auto;
+}
+/* all 3 page nav */
+#main-navbar{
+  background-color: #333333;
+  overflow: hidden;
+}
+#navbar-container{
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul{
+  list-style-type: none;
+  margin: 0.5em;
+  padding: 0.5em;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li{
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block; 
+}
+#main-navbar ul li a{
+  display: block;
+  padding: 0.625em 1.25em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+}
+#main-navbar ul li a:hover{
+  background-color: #000;  
+}
+#onpage{
+  text-decoration: underline;
+}
+/* about me page */
+#aboutmeimg{
+  float: right;
+  position: relative; 
+  top: -8.75em;
+  right: 15.625em;
+  z-index: 15;
+}
+#goalimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: -33.125em;
+  width: 27.5em;
+  height: 22.5em;
+  border-radius: 150%;
+  z-index: 15;
+}
+.gcontainer{
+  box-shadow: 10px 10px 5px #777777;
+  width: 18.75em;
+  height: 21.25em;
+  margin: 0.925em;
+  padding: 0.625em;
+  float: right;
+}
+.indexp{
+  width: 28.125em;
+  margin: 0.625em;
+  padding: 0em;
+  text-align: center;
+}
+.box{
+  float: right;
+  position: relative;
+  top: -10.625em;
+  right: -15.625em;
+  width: 29.065em;
+  height: 28em;
+  background-color: #30BFBF;
+}
+.circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: -9.375em;
+  right: 0.625em;
+  width: 27.5em;
+  height: 22.5em;
+  border-radius: 150%;
+  background-color: #30BFBF;
+}
+.shift-down{
+  position: relative;
+  top: 15em;
+}
+/* interest page */
+#interesttext{
+  position: fixed;
+  background-color: #fff;
+  padding: 1em;
+  font-size: 0.7em;
+  font-size: 0.8vw;
+  width: 48%;
+  height: inherit;
+}
+.photoresize{
+  height: 50%;
+  width: 90%;
+}
+.imgcontainer{
+  float: right;
+  position: relative;
+  height: auto;
+  width: 50%;
+  background-color: #333333;
+}
+.imgadj{
+  height: 80%;
+  width: 90%;
+}
+/* resume page */
+#nativefont{
+  font-family: sans-serif;
+}
+.edu{
+  position: relative;
+  margin-bottom: 1em;
+  height: 24em;
+  width: 30em;
+}
+.extra{
+  float: right;
+  position: relative;
+  height: auto;
+  width: 40em;
+  right: 11em;
+  top: -0.5em;
+}
+.reimg{
+  margin-bottom: 1em;
+  margin-top: 3em;
+  height: relative;
+  width: 50%;
+  border-radius: 75%;
+  margin-left: 7.9em;
+}
+.extra-box{
+  box-shadow: 10px 10px 5px #777777;
+  width: auto;
+  height: auto;
+  margin: 0.925em;
+  padding: 0.625em;
+}
+.resume-side{
+  float: left;
+  background-color: #DBF3FA;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 133.6em;
+  position: relative;
+  top: -6.8em;
+  width: 33em;
+}
+.rrectangle{
+  clear: both;
+  width: 88.2em;
+  height: 5em;
+  background-color: #333333;
+  position: relative;
+  top: -0.4em;
+  right: 37.2em;
+}

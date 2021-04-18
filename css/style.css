@@ -63,10 +63,19 @@ p, li{
   text-decoration: underline;
 }
 /* about me page */
-#aboutmeimg{
+#aimg{
+}
+.aboutmeimg{
   float: right;
   position: relative; 
   top: -8.75em;
+  right: 15.625em;
+  z-index: 15;
+}
+.aboutmeimg2{
+  float: right;
+  position: relative; 
+  top: -12.75em;
   right: 15.625em;
   z-index: 15;
 }
@@ -121,6 +130,11 @@ p, li{
 .shift-down{
   position: relative;
   top: 15em;
+}
+#click1{
+  position: relative;
+  left: 57.5em;
+  top: 20em;
 }
 /* interest page */
 #interesttext{

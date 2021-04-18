@@ -9,3 +9,9 @@ $(function(){
     slideWidth: 600
   });
 });
+
+$(document).ready(function(){
+  $('#click1').click(function(){
+      $('#aimg').toggleClass('aboutmeimg2');
+  });
+});

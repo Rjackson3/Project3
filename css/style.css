@@ -128,7 +128,7 @@ p, li{
   background-color: #fff;
   padding: 1em;
   font-size: 0.7em;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   width: 47%;
   height: inherit;
 }
@@ -211,10 +211,10 @@ iframe{
   right: 37.2em;
 }
 /*media queries*/
-@media screen and (min-width: 40em){
+@media screen and (min-width: 560px){
 #interesttext{
   position: fixed;
-  background-color: #fff;
+  background-color: white;
   padding: 1em;
   font-size: 0.7em;
   font-size: 0.8vw; /*1*/

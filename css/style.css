@@ -147,6 +147,17 @@ p, li{
   height: 80%;
   width: 90%;
 }
+/*YouTube video*/
+.video{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+}
+iframe{
+  position: absolute;
+  width: 30%;
+  height: 30%;
+}
 /* resume page */
 #nativefont{
   font-family: sans-serif;

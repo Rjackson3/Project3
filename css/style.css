@@ -128,8 +128,8 @@ p, li{
   background-color: #fff;
   padding: 1em;
   font-size: 0.7em;
-  font-size: 0.8vw;
-  width: 48%;
+  font-size: 1.3vw;
+  width: 47%;
   height: inherit;
 }
 .photoresize{
@@ -209,4 +209,16 @@ iframe{
   position: relative;
   top: -0.4em;
   right: 37.2em;
+}
+/*media queries*/
+@media screen and (min-width: 40em){
+#interesttext{
+  position: fixed;
+  background-color: #fff;
+  padding: 1em;
+  font-size: 0.7em;
+  font-size: 0.8vw; /*1*/
+  width: 48%; /*2*/
+  height: inherit;
+}
 }

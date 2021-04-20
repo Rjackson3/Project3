@@ -64,6 +64,7 @@ p, li{
 }
 /* about me page */
 #aimg{
+  
 }
 .aboutmeimg{
   float: right;
@@ -114,6 +115,11 @@ p, li{
   height: 28em;
   background-color: #30BFBF;
 }
+.boxcaption{
+  position: relative;
+  bottom: -25em;
+  left: 5em;
+}
 .circle{
   display: block;
   margin-left: auto;
@@ -133,7 +139,7 @@ p, li{
 }
 #click1{
   position: relative;
-  left: 57.5em;
+  left: 54.5em;
   top: 20em;
 }
 /* interest page */

@@ -25,7 +25,7 @@ p, li{
   width: 88.25em;
   margin: auto;
 }
-/* all 3 page nav */
+/* nav */
 #main-navbar{
   background-color: #333333;
   overflow: hidden;
@@ -57,7 +57,9 @@ p, li{
   font-weight: 100;
 }
 #main-navbar ul li a:hover{
-  background-color: #000;  
+  background-color: #000;
+  transform: scale(.9);
+  transition: all 0.5s;
 }
 #onpage{
   text-decoration: underline;
@@ -167,7 +169,7 @@ p, li{
   height: 80%;
   width: 100%;
 }
-/*YouTube video*/
+/* YouTube video */
 .video{
   position: relative;
   padding-bottom: 56.25%;
@@ -236,7 +238,7 @@ iframe{
   padding-top: 1em;
   padding-bottom: 1em;
 }
-/*media queries*/
+/* media queries */
 @media screen and (min-width: 600px){
 #interesttext{
   position: fixed;
@@ -289,7 +291,7 @@ iframe{
   width: 100%;
 }
 }
-/*google map*/
+/* google map */
 #map{
   position: relative;
   margin-top: 3em;

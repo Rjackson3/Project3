@@ -202,6 +202,7 @@ iframe{
   margin-bottom: 1em;
   margin-top: 3em;
   width: 50%;
+  height: auto;
   border-radius: 75%;
   margin-left: 7.9em;
 }
